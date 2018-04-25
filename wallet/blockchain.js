@@ -59,7 +59,7 @@ function createTransaction(data) {
 }
 
 async function authorizeInput(input,privKey) {
-	input.signature = await createSignature("TODO: public text, ideally the pubkey text",privKey);
+	input.signature = await createSignature(input.account,privKey);
 	return input;
 }
 

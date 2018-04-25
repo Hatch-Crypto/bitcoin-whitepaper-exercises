@@ -1,7 +1,7 @@
 {
-	"name": "solutions-transactions",
+	"name": "exercises-transactions",
 	"main": "transactions.js",
 	"dependencies": {
-		"openpgp": "~3.0.7"
+		"openpgp": "~3.0.8"
 	}
 }
