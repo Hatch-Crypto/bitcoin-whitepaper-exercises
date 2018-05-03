@@ -105,9 +105,30 @@ async function spend(fromAccount,toAccount,amountToSpend) {
 
 	
 	// record output
+
+	
+	// is "change" output needed?
+	
+	
+	// create transaction and add it to blockchain
+	var tr = Blockchain.createTransaction(trData);
+	Blockchain.insertBlock(
+	// TODO .createBlock method
+
+	);	
+	
+	// record outputs in our wallet (if needed)	
 	
 }
 
 function accountBalance(account) {
-	// TODO
+	var balance = 0;
+
+// 	if (account in wallet.accounts) {
+
+// 	}	
+	
+	
+// 	return balance;
+	
 }
