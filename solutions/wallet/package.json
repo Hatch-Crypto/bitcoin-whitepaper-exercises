@@ -1,0 +1,7 @@
+{
+	"name": "solutions-wallet",
+	"main": "wallet.js",
+	"dependencies": {
+		"openpgp": "~3.0.8"
+	}
+}

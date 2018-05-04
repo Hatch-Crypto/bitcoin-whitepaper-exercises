@@ -1,0 +1,7 @@
+{
+	"name": "solutions-transactions",
+	"main": "transactions.js",
+	"dependencies": {
+		"openpgp": "~3.0.8"
+	}
+}
