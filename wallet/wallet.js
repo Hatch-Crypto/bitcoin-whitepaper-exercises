@@ -76,8 +76,59 @@ function addAccount(privKey,pubKey) {
 
 async function spend(fromAccount,toAccount,amountToSpend) {
 	// TODO
+	var trData = {
+	inputs: [],
+	outputs: [],
+};
+	
+	// pick inputs to use from fromAccount's outputs (i.e. previous txns, see line 22), sorted descending
+	// var sortedInputs =
+	
+// 	for (let input of sortedInputs) {
+// 		// remove input from output-list
+
+
+// 		// do we have enough inputs to cover the spent amount?
+
+	
+	
+// 	}
+	
+	
+	
+// 	if (inputAmounts < amountToSpend) {
+
+// 		throw `Don't have enough to spend ${amountToSpend}!`;
+// 	}	
+
+	// sign and record inputs
+
+	
+	// record output
+
+	
+	// is "change" output needed?
+	
+	
+	// create transaction and add it to blockchain
+	var tr = Blockchain.createTransaction(trData);
+	Blockchain.insertBlock(
+	// TODO .createBlock method
+
+	);	
+	
+	// record outputs in our wallet (if needed)	
+	
 }
 
 function accountBalance(account) {
-	// TODO
+	var balance = 0;
+
+// 	if (account in wallet.accounts) {
+
+// 	}	
+	
+	
+// 	return balance;
+	
 }
