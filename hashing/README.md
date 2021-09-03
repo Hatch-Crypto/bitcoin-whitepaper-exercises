@@ -29,7 +29,7 @@ Define a `verifyChain(..)` function that checks all blocks in the chain to ensur
 Each block should be checked for the following:
 
 * `data` must be non-empty
-* for the genesis block only, the hash must be `"000000"`
+* for the genesis block only, `prevHash` must be `"000000"`
 * `prevHash` must be non-empty
 * `index` must be an integer >= `0`
 * the `hash` must match what recomputing the hash with `blockHash(..)` produces
